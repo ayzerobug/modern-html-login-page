@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito";
+}
+
+.login-container{
+    background-color: #e4ebf6;
+}
+
+.bg-container{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.b-radius{
+    border-radius: 20px;
+}
+
+.page-header{
+    font-weight: bold;
+    color: #57618a;
+}
+
+.page-header~p{
+    color: #57618a;
+}
+
+.my-form input{
+    border-radius: 10px;
+    padding: 10px 15px;
+    height: auto;
+
+}
+
+.my-form button{
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #57618a;
+}
+
+.social-button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #57618a;
+    text-align: center;
+    font-weight: bold;
+    border: solid #57618a 1px;
+}
+
+ 
+
+.form-container{
+    padding: 50px 70px;
+}
+
+.text-divider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-divider div{
+    border-top: solid #57618a77 2px;
+    width: 42%;
+    margin-top: 10px;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+
+.option p{
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #57618a;
+    margin-top: 5px;
+}
+
+.option a{
+    font-size: 0.8em;
+    display: block;
+    padding:  5px 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: #57618a;
+    text-align: center;
+    font-weight: bold;
+    border: solid #57618a 1px;
+    line-height: normal;
+    height: min-content;
+
+}
