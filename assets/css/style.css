@@ -33,7 +33,13 @@ body{
     border-radius: 10px;
     padding: 10px 15px;
     height: auto;
+    width: 100% !important;
+    display: inline;
+}
 
+.my-form i {
+    margin-left: -30px;
+    cursor: pointer;
 }
 
 .my-form button{
@@ -60,8 +66,9 @@ body{
  
 
 .form-container{
-    padding: 50px 70px;
+    padding: 30px 20px;
 }
+
 
 .text-divider{
     display: flex;
@@ -100,3 +107,12 @@ body{
     height: min-content;
 
 }
+
+@media (min-width: 768px) { 
+    .form-container{
+        padding: 50px 70px;
+    }
+    .login-container{
+        padding: 1.5rem;
+    }
+ }
